@@ -1,0 +1,3 @@
+function wiki:example/show_main_hand_item/run
+
+function wiki:tellraw_abstract_text_component
