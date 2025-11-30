@@ -2,6 +2,7 @@
   "custom.slash": {
     "sounds": [
       "wiki:slash"
-    ]
+    ],
+    "subtitle": "subtitles.custom.slash"
   }
 }

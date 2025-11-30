@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "ascent": 64,
+      "height": 128,
+      "file": "block/black_wool.png",
+      "chars": [
+        "\ue001"
+      ]
+    }
+  ]
+}
