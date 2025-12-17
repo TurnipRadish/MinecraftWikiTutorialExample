@@ -8,6 +8,15 @@
       "chars": [
         "\ue001"
       ]
+    },
+    {
+      "type": "bitmap",
+      "height": 32,
+      "ascent": 0,
+      "file": "wiki:font/wiki_logo.png",
+      "chars": [
+        "\ue002"
+      ]
     }
   ]
 }
