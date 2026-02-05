@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "display_context",
+    "cases": [
+      {
+        "when": "gui",
+        "model": {
+          "type": "model",
+          "model": "wiki:item/straw_hat_icon"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "wiki:item/straw_hat"
+    }
+  }
+}

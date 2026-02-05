@@ -1,0 +1,43 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "wiki:item/straw_hat",
+		"particle": "wiki:item/straw_hat"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0, 16],
+			"rotation": {"angle": 5, "axis": "x", "origin": [6, 0, 0]},
+			"faces": {
+				"north": {"uv": [7.75, 16, 11.75, 16], "texture": "#missing"},
+				"east": {"uv": [3.75, 16, 7.75, 16], "texture": "#missing"},
+				"south": {"uv": [15.75, 16, 19.75, 16], "texture": "#missing"},
+				"west": {"uv": [11.75, 16, 15.75, 16], "texture": "#missing"},
+				"up": {"uv": [11.75, 16, 7.75, 12], "texture": "#0"},
+				"down": {"uv": [11.75, 12, 7.75, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, -0.75, 4],
+			"to": [12, 2.25, 12],
+			"rotation": {"angle": 5, "axis": "x", "origin": [5, -0.75, 10]},
+			"faces": {
+				"north": {"uv": [10, 2, 12, 2.75], "texture": "#0"},
+				"east": {"uv": [8, 2, 10, 2.75], "texture": "#0"},
+				"south": {"uv": [14, 2, 16, 2.75], "texture": "#0"},
+				"west": {"uv": [12, 2, 14, 2.75], "texture": "#0"},
+				"up": {"uv": [12, 2, 10, 0], "texture": "#0"},
+				"down": {"uv": [14, 0, 12, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, 18.25, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

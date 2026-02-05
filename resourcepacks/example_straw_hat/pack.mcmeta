@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": "数据驱动实例-草帽",
+		    "min_format": [79, 0],
+        "max_format": [79, 0]
+    }
+}
