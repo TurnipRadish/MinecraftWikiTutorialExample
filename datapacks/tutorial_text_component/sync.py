@@ -1,7 +1,7 @@
 import shutil
 import os
 
-source_dir = r"E:\MC\.minecraft\saves\主要测试\datapacks\tutorial_text_component"
+source_dir = r"E:\MC\.minecraft\saves\主要测试2\datapacks\tutorial_text_component"
 destination_dir = r"E:\Work\_Development\Minecraft\Vanilla\MinecraftWikiTutorialExample\datapacks\tutorial_text_component"
 
 if os.path.exists(destination_dir):
