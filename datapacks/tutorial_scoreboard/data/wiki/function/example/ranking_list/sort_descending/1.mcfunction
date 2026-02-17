@@ -3,5 +3,5 @@ scoreboard players operation @s rank = #cur rank
 scoreboard players add #cur rank 1
 # 将该玩家从剩余待排序玩家中剔除
 tag @s add ranked
-# 重新设置为最小值，以方面下一次获取剩余待排序实体的最大值
+# 重新设置为最小值，以方便下一次获取剩余待排序实体的最大值
 scoreboard players set #max test -2147483648
