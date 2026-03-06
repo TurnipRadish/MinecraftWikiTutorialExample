@@ -1,0 +1,48 @@
+{
+  "parent": "wiki:root",
+  "criteria": {
+    "poppy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poppy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "azure_bluet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:azure_bluet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "获得虞美人和蓝花美耳草"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:azure_bluet"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "获得虞美人和蓝花美耳草"
+    }
+  },
+  "requirements": [
+    [
+      "azure_bluet"
+    ],
+    [
+      "poppy"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

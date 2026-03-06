@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "amethyst_cluster": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:amethyst_cluster"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:block/amethyst_block",
+    "description": {
+      "text": "我是一个描述"
+    },
+    "icon": {
+      "id": "minecraft:amethyst_cluster"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "我是一个标题"
+    }
+  },
+  "requirements": [
+    [
+      "amethyst_cluster"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
